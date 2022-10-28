@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Porfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar" class="nav">
+        <ul>
+          <li>
+            <a href="#about">
+              <span class="code">&lt;</span>
+              About
+              <span class="code">&#47;&gt;</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects">
+              <span class="code">&lt;</span>
+              Projects
+              <span class="code">&#47;&gt;</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <span class="code">&lt;</span>
+              Contact
+              <span class="code">&#47;&gt;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome-section">
+        <div>
+          <h1>Hello<span>,</span></h1>
+          <p id="subheading">I'm <span>Cristian Primero</span></p>
+        </div>
+        <div>
+          <img
+            class="welcome-img"
+            id="desktop-only"
+            src="https://raw.githubusercontent.com/SoySkiper/freecodecamp-RWD/3f4efcf09c4258573674861c0b2bb4f6e28031ae/PersonalPortfolio/images/Idea.svg"
+            alt="A person leaning on a rubik's cube"
+          />
+          <img
+            class="welcome-img"
+            id="mobile-only"
+            src="https://raw.githubusercontent.com/SoySkiper/freecodecamp-RWD/3f4efcf09c4258573674861c0b2bb4f6e28031ae/PersonalPortfolio/images/dev.svg"
+            alt="A developer"
+          />
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>My profile:</h2>
+        <div id="about-container">
+          <div id="interests-list">
+            <h3>Interests</h3>
+            <ul>
+              <li>Programming</li>
+              <li>App & Web Development</li>
+              <li>Front-End VueJS</li>
+            </ul>
+          </div>
+          <div id="my-story">
+            <p>
+              I'm a Front-End Web Developer, passionate about technology. I
+              started my training in a self-taught way taking different training
+              courses. <br>
+              I consider myself a sociable, proactive person, and
+              committed to the objectives. My goal is to grow in my career as a
+              fullstack software developer, deepening the technologies I use and
+              acquiring new ones.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>My Work:</h2>
+        <p>Here's a list of projects I built for the Responsive Web Design Certification on freeCodeCamp.</p>
+      
+        <div class="projects-grid">
+          <div class="card">
+            <div class="project-img">
+              <img src="https://github.com/SoySkiper/freecodecamp-RWD/blob/main/PersonalPortfolio/images/lineTime.png?raw=true" alt="tribute page">
+            </div>
+            <div class="desc">
+              <h3 class="project-tile">
+                <a href="https://github.com/SoySkiper/freecodecamp-RWD/tree/main/TributePage">Tribute Page</a>
+              </h3>
+              <p>A tribute page dedicated to Margaret Hamilton, built with HTML and CSS</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="project-img">
+              <img src="https://github.com/SoySkiper/freecodecamp-RWD/blob/main/PersonalPortfolio/images/form.png?raw=true" alt="survey form">
+            </div>
+            <div class="desc">
+              <h3 class="project-tile">
+                <a href="https://github.com/SoySkiper/freecodecamp-RWD/tree/main/SurveyForm">Survey Form</a>
+              </h3>
+              <p>A survey form UI for an course, built with HTML and CSS</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="project-img">
+              <img src="https://github.com/SoySkiper/freecodecamp-RWD/blob/main/PersonalPortfolio/images/key.png?raw=true" alt="product landing page">
+            </div>
+            <div class="desc">
+              <h3 class="project-tile">
+                <a href="https://github.com/SoySkiper/freecodecamp-RWD/tree/main/SurveyForm">Product Landing Page</a>
+              </h3>
+              <p>A product landing page for a keyboard for sale, created with HTML and CSS</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="project-img">
+              <img src="https://github.com/SoySkiper/freecodecamp-RWD/blob/main/PersonalPortfolio/images/documetation.png?raw=true" alt="technical documentation page">
+            </div>
+            <div class="desc">
+              <h3 class="project-tile">
+                <a href="https://github.com/SoySkiper/freecodecamp-RWD/tree/main/TechnicalDocumentationPage">Technical Documentation Page</a>
+              </h3>
+              <p>A technical documentation page made for HTML</p>
+            </div>
+          </div>
+      
+          <div class="card">
+            <div class="project-img">
+              <img src="https://github.com/SoySkiper/freecodecamp-RWD/blob/main/PersonalPortfolio/images/portfolio.png?raw=true" alt="personal portfolio">
+            </div>
+            <div class="desc">
+              <h3 class="project-tile">
+                <a href="https://github.com/SoySkiper/freecodecamp-RWD/tree/main/PersonalPortfolio">Personal Portfolio Webpage</a>
+              </h3>
+              <p>A static personal portfolio, built with HTML and CSS</p>
+            </div>
+          </div>
+      
+        </div>
+      
+      </section>
+
+    </main>
+    <footer>
+      <section id="contact">
+        <h2>Let's work together</h2>
+        <p>Find me on</p>
+        <div class="contact-links">
+          <a href="https://twitter.com/SoySkiper" target="_blank" class="contact-details">
+            <img src="https://raw.githubusercontent.com/SoySkiper/freecodecamp-RWD/ac296c94e2209c82f5aaaebb44d16855fb450cf8/PersonalPortfolio/images/twitter.svg" alt="twitter logo" class="contact-icon">Twitter
+          </a>
+          <a href="https://www.linkedin.com/in/cristianprimero/" target="_blank" class="contact-details">
+            <img src="https://raw.githubusercontent.com/SoySkiper/freecodecamp-RWD/ac296c94e2209c82f5aaaebb44d16855fb450cf8/PersonalPortfolio/images/linkedin.svg" alt="linkedin logo" class="contact-icon">LinkedIn
+          </a>
+          <a href="https://github.com/SoySkiper" target="_blank" class="contact-details">
+            <img src="https://raw.githubusercontent.com/SoySkiper/freecodecamp-RWD/ac296c94e2209c82f5aaaebb44d16855fb450cf8/PersonalPortfolio/images/github.svg" alt="github logo" class="contact-icon">GitHub
+          </a>
+          <a id="profile-link" href="https://www.freecodecamp.org/SoySkiper" target="_blank" class="contact-details">
+            <img src="https://raw.githubusercontent.com/SoySkiper/freecodecamp-RWD/ac296c94e2209c82f5aaaebb44d16855fb450cf8/PersonalPortfolio/images/freecodecamp.svg" alt="freeCodeCamp logo" class="contact-icon">freeCodeCamp
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
